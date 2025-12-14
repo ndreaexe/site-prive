@@ -16,6 +16,16 @@ header h1 {
     margin: 0;
 }
 
+.hero {
+    position: relative;
+    background-color: #A5ABFF;
+    height: 240px;
+    clip-path: polygon(0 0, 75% 0, 55% 100%, 0 100%);
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
 main {
     padding: 40px;
 }

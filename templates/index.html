@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>ISO'PLÂTRE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-<header>
+<header class="hero">
     <h1>ISO'PLÂTRE</h1>
 </header>
 
-<main>
-    <div class="gallery">
-        <div class="image-box">Image 1</div>
-        <div class="image-box">Image 2</div>
-        <div class="image-box">Image 3</div>
-        <div class="image-box">Image 4</div>
-        <div class="image-box">Image 5</div>
-        <div class="image-box">Image 6</div>
-    </div>
-</main>
+<section class="gallery">
+    <div class="card"><img src="{{ url_for('static', filename='images/20220704_170556.jpg') }}"></div>
+    <div class="card"><img src="{{ url_for('static', filename='images/20220704_170627.jpg') }}"></div>
+    <div class="card"><img src="{{ url_for('static', filename='images/20221118_154114.jpg') }}"></div>
+    <div class="card"><img src="{{ url_for('static', filename='images/20221118_154133.jpg') }}"></div>
+    <div class="card"><img src="{{ url_for('static', filename='images/20221118_154136.jpg') }}"></div>
+    <div class="card"><img src="{{ url_for('static', filename='images/20221210_151326.jpg') }}"></div>
+</section>
+
+<footer class="footer">
+    <p>📞 06 XX XX XX XX</p>
+    <p>✉️ contact@isoplatre.fr</p>
+</footer>
 
 </body>
 </html>
+
 
 
 

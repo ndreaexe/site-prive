@@ -70,4 +70,10 @@ body {
     .card {
         height: 200px;
     }
+}.logo-top {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 60px;
 }
+
